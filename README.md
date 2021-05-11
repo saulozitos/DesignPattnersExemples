@@ -1,1 +1,1 @@
-# C++ examples for Design Parttners
+# C++ examples for Design Pattners
