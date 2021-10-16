@@ -4,6 +4,11 @@
 
 ## Current examples:
 
+- Builder
+
 - Factory
+
 - Observer
+
+  
 
