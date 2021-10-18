@@ -1,5 +1,5 @@
 #include "manager.h"
-
+#include <iostream>
 Manager::Manager() : m_builder(nullptr) {}
 
 void Manager::setBuilder(std::unique_ptr<Builder> newBuilder) {
@@ -15,10 +15,6 @@ std::unique_ptr<Car> Manager::getCar() {
       std::make_unique<std::array<std::unique_ptr<CarParts::Wheel>, 4>>();
 
   for (int i = 0; i < 4; ++i) {
-    /**
-     * @todo
-     * check that std::move will still have a valid m_builder.
-     */
     wheels->at(i) = std::move(m_builder->getWheel());
   }
 
