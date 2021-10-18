@@ -8,6 +8,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(PROJECT_FILES
     src/main.cpp
     src/ianimal.h
+    src/dog.h
+    src/dog.cpp
     )
 
 add_executable(${PROJECT_NAME} ${PROJECT_FILES})
