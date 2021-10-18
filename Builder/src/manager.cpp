@@ -1,6 +1,10 @@
 #include "manager.h"
 #include <iostream>
-Manager::Manager() : m_builder(nullptr) {}
+Manager::Manager() : m_builder(nullptr) {
+  std::cout << "Manager constructor" << '\n';
+}
+
+Manager::~Manager() { std::cout << "Manager destructor" << '\n'; }
 
 void Manager::setBuilder(std::unique_ptr<Builder> newBuilder) {
   m_builder = std::move(newBuilder);

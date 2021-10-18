@@ -5,7 +5,7 @@
 class Manager {
 public:
   Manager();
-  ~Manager() = default;
+  ~Manager();
 
   void setBuilder(std::unique_ptr<Builder> newBuilder);
   std::unique_ptr<Car> getCar();
