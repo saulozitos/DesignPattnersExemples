@@ -10,6 +10,8 @@ set(PROJECT_FILES
     src/ianimal.h
     src/dog.h
     src/dog.cpp
+    src/cat.h
+    src/cat.cpp
     )
 
 add_executable(${PROJECT_NAME} ${PROJECT_FILES})

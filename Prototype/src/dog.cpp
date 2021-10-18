@@ -1,5 +1,6 @@
 #include "dog.h"
 #include <iostream>
+
 Dog::Dog() { std::cout << "CONSTRUCTOR Dog" << '\n'; }
 
 Dog::~Dog() { std::cout << "DESTRUCTOR Dog" << '\n'; }
