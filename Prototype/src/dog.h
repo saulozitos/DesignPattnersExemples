@@ -9,4 +9,5 @@ public:
 
   std::unique_ptr<Animal> create() override;
   std::unique_ptr<Animal> clone() override;
+  void whoAmI() override;
 };
