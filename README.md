@@ -10,5 +10,7 @@
 
 - Observer
 
+- Prototype
+
   
 
